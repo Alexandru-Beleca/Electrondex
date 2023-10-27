@@ -1,0 +1,200 @@
+#dexparent {
+
+    position: absolute;
+    width: 400px;
+    height: 577px;
+
+    background: #FF0000;
+}
+#line1{
+    position: absolute;
+    width: 208.53px;
+    height: 0px;
+    left: 95.6px;
+    top: 541.41px;
+
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    transform: rotate(-0.15deg);
+}
+#line2{
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 0px;
+    top: 102px;
+
+    border: 5px solid #000000;
+}
+#line3{
+    position: absolute;
+    width: 73px;
+    height: 0px;
+    left: 175.59px;
+    top: 76.58px;
+    
+    border: 4px solid #000000;
+    transform: rotate(-49.66deg);
+}
+#line4{
+    position: absolute;
+    width: 167px;
+    height: 0px;
+    left: 233px;
+    top: 50px;
+
+    border: 4px solid #000000;
+    transform: rotate(180deg);
+}
+#polygon{
+    border-top : 25px solid transparent;
+    border-bottom : 25px solid transparent;
+    border-left : 43px solid #fec401;
+    position: absolute;
+    left: 20px;
+    top: 265px;
+    cursor: pointer;
+}
+#ellipse1{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 14px;
+    top: 12px;
+
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0.417625) 8.75%, rgba(255, 255, 255, 0) 100%), #27ABFD;
+    border: 6px solid #FFFFFF;
+    border-radius: 50px;
+}
+#ellipse2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 99px;
+    top: 12px;
+
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #D31435;
+    border-radius: 50px;
+}
+#ellipse3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 132px;
+    top: 12px;
+
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #42C05B;
+    border-radius: 50px;
+}
+#ellipse4{
+    position: absolute;
+    width: 11px;
+    height: 10px;
+    left: 115px;
+    top: 12px;
+
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFDF2F;
+    border-radius: 50px;
+}
+
+#rectangle1{
+
+    position: absolute;
+    width: 400px;
+    height: 577px;
+    left: 400px;
+    top: 0px;
+    background: #FF0000;
+    display: none;
+}
+
+#monitor{
+    position: absolute;
+    width: 333px;
+    height: 270px;
+    left: 33px;
+    top: 140px;
+    background: rgb(255, 255, 255);
+}
+
+#infoSection{
+    position: absolute;
+    width: 350px;
+    height: 110px;
+    left: 24px;
+    top: 100px;
+
+    background: #000000;
+}
+#list{
+    position: absolute;
+    width: 350px;
+    height: 145px;
+    left: 24px;
+    top: 234px;
+
+    background: #5E94FC;
+}
+#closeButton{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 337px;
+    top: 403px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFDF2F;    
+    border-radius: 50px;
+}
+#image{
+    width: 223px;
+    height: 224px;
+}
+.pokemon {
+    width: auto;
+	border-radius: 10px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 7px;
+	padding: 0px;
+	text-align: center;
+    
+}
+#button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    
+    left: 46px;
+    top: 430px;
+
+    background: #000000;
+    border-radius: 50px;
+}
+#face1{
+    display: none;
+}
+#leftArrow {
+    position: absolute;
+    rotate: 180deg;
+    left: 243px;
+    top: 445px;
+}
+#topArrow{
+    position: absolute;
+    rotate: 270deg;
+    left: 270px;
+    top: 419px;
+}
+#botArrow{
+    position: absolute;
+    rotate: 90deg;
+    left: 270px;
+    top: 471px;
+}
+#rightArrow{
+    position: absolute;
+    left: 297px;
+    top: 445px;
+}
+#name{
+    margin-bottom:-10px;
+    font-size: 12px;
+}
